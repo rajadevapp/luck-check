@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Lucky Four-Leaf Clover</title>
+  <desc>A bright green four-leaf clover symbolizing luck.</desc>
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BEA55"/>
+      <stop offset="100%" stop-color="#249B45"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#leaf)" stroke="#176B35" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M64 59 C42 58 29 46 31 31 C33 16 49 12 59 23 C64 29 64 39 64 59Z"/>
+    <path d="M69 59 C70 37 82 24 97 26 C112 28 116 44 105 54 C99 59 89 60 69 59Z"/>
+    <path d="M69 69 C91 70 104 82 102 97 C100 112 84 116 74 105 C69 99 68 89 69 69Z"/>
+    <path d="M59 69 C58 91 46 104 31 102 C16 100 12 84 23 74 C29 69 39 68 59 69Z"/>
+  </g>
+
+  <path d="M64 65 C64 83 66 99 78 113" fill="none" stroke="#176B35" stroke-width="7" stroke-linecap="round"/>
+  <path d="M64 65 C64 83 66 99 78 113" fill="none" stroke="#62C94B" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="64" cy="64" r="5" fill="#D9FF9C"/>
+</svg>
