@@ -66,9 +66,9 @@ function App() {
           </div>)}
           {/* Play section */}
           {playerSpot == 'play' && 
-          (<div className='justify-around flex gap-30'>
+          (<div className='justify-around flex gap-30 flex-col  md:flex-row'>
             <div>
-                <h1 className='text-3xl'>The generated number is shown below. ⬇️  </h1>
+                <h1 className='text-2xl'>The generated number is shown below.⬇️  </h1>
                 <div className={!isFinal ? `bg-white/80 backdrop-blur-xl rounded-xl p-10 mt-5 z-50`: `bg-white/80 backdrop-blur-xl rounded-xl p-10 mt-5 z-50`}>
                   <h2 className="text-3xl font-bold text-[rgba(255,255,255,0.2)] text-center -z-5 cursor-not-allowed">
                     {isFinal && randomNumber}
@@ -86,7 +86,7 @@ function App() {
           </div>)}  
         </div>
           {isFinished && <div className='float-right'>
-              <button onClick={handleSubmit} className="text-center mt-8 px-10 py-4 rounded-xl
+              <button onClick={handleSubmit} className="text-center mt-18 md:mt-10 px-10 py-4 rounded-xl
                   text-white text-lg font-extrabold
                   bg-gradient-to-r from-pink-300 via-rose-400 to-orange-300
                   shadow-[0_0_20px_via-rose-200]
