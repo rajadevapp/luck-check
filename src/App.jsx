@@ -41,7 +41,6 @@ function App() {
                 <ul className='px-6'>
                   <li>A hidden number will be displayed on the left side.</li>
                   <li>Guess the hidden number and enter it in the input box.</li>
-                  <li>Once you have listened to the audio, a counting section will appear.</li>
                   <li>Click the Submit button to check your answer.</li>
                   <li>Find out if your guess is correct and test your luck!</li>
                 </ul>
